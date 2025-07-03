@@ -6,30 +6,36 @@ O objetivo deste projeto foi desenvolver uma pipeline completa de análise de da
 
 A pipeline é dividida nos seguintes notebooks:
 
-data-exploration.ipynb: Focado na limpeza, tratamento de dados faltantes e engenharia de features.
+● data-exploration.ipynb: Focado na limpeza, tratamento de dados faltantes e engenharia de features.
 
-text-classification.ipynb: Utiliza um modelo de IA para classificar os livros em categorias gerais (Ficção, Não Ficção, etc.).
+● text-classification.ipynb: Utiliza um modelo de IA para classificar os livros em categorias gerais (Ficção, Não Ficção, etc.).
 
-sentiment-analysis.ipynb: Analisa a descrição dos livros para extrair um perfil emocional de cada obra.
+● sentiment-analysis.ipynb: Analisa a descrição dos livros para extrair um perfil emocional de cada obra.
 
-vector-search.ipynb: Implementa um sistema de busca vetorial para encontrar livros com base no significado semântico de uma consulta.
+● vector-search.ipynb: Implementa um sistema de busca vetorial para encontrar livros com base no significado semântico de uma consulta.
 
 # ✨ Funcionalidades
-Limpeza de Dados: Tratamento de valores ausentes e filtragem de dados para garantir a qualidade do conjunto de dados para análise.
+● Limpeza de Dados: Tratamento de valores ausentes e filtragem de dados para garantir a qualidade do conjunto de dados para análise.
 
-Classificação de Gênero: Uso de um modelo de classificação "zero-shot" (facebook/bart-large-mnli) para categorizar livros sem gênero definido, alcançando uma acurácia de 81% em testes.
+● Classificação de Gênero: Uso de um modelo de classificação "zero-shot" (facebook/bart-large-mnli) para categorizar livros sem gênero definido, alcançando uma acurácia de 81% em testes.
 
-Análise de Sentimentos: Aplicação de um modelo de emoções (j-hartmann/emotion-english-distilroberta-base) para atribuir pontuações com sentimentos de raiva, alegria, medo, tristeza, etc., a cada livro com base em sua descrição.
+● Análise de Sentimentos: Aplicação de um modelo de emoções (j-hartmann/emotion-english-distilroberta-base) para atribuir pontuações com sentimentos de raiva, alegria, medo, tristeza, etc., a cada livro com base em sua descrição.
 
-Busca Semântica Vetorial: Implementação de um sistema de busca usando OpenAI Embeddings e um banco de dados vetorial ChromaDB, permitindo recomendações baseadas no significado de uma consulta em linguagem natural.
+● Busca Semântica Vetorial: Implementação de um sistema de busca usando OpenAI Embeddings e um banco de dados vetorial ChromaDB, permitindo recomendações baseadas no significado de uma consulta em linguagem natural.
 
 # ⚙️ Tecnologias e Bibliotecas
-Análise de Dados: Pandas, NumPy
+● Análise de Dados: Pandas, NumPy
 
-Visualização: Matplotlib, Seaborn
+● Visualização: Matplotlib, Seaborn
 
-Machine Learning e PLN: Scikit-learn, Hugging Face Transformers
+● Machine Learning e PLN: Scikit-learn, Hugging Face Transformers
 
-Busca Vetorial: LangChain, OpenAI, ChromaDB
+● Busca Vetorial: LangChain, OpenAI, ChromaDB
 
-Ambiente: Jupyter Notebook, dotenv
+● Ambiente: Jupyter Notebook, dotenv
+
+# Demonstração
+
+
+https://github.com/user-attachments/assets/657c57b6-487b-477d-bdb8-f07ebf5819de
+
