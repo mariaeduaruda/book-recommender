@@ -28,7 +28,7 @@ A pipeline é dividida nos seguintes notebooks:
 
 ● Visualização: Matplotlib, Seaborn
 
-● Machine Learning e PLN: Scikit-learn, Hugging Face Transformers
+● Machine Learning e PLN: Hugging Face Transformers
 
 ● Busca Vetorial: LangChain, OpenAI, ChromaDB
 
