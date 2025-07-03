@@ -1,5 +1,5 @@
-# Sistema de Recomendação e Busca Semântica de Livros
-## Este projeto demonstra a construção de um sistema de recomendação de livros diversos, utilizando técnicas de Processamento de Linguagem Natural para analisar, classificar e recomendar livros com base em seu conteúdo e tom emocional. O sistema é capaz de entender consultas em linguagem natural para fornecer sugestões contextualmente relevantes.
+# Sistema de Recomendação e Busca Semântica de Livros 📚
+Este projeto demonstra a construção de um sistema de recomendação de livros diversos, utilizando técnicas de Processamento de Linguagem Natural para analisar, classificar e recomendar livros com base em seu conteúdo e tom emocional. O sistema é capaz de entender consultas em linguagem natural para fornecer sugestões contextualmente relevantes.
 
 # 📜 Descrição do Projeto
 O objetivo deste projeto foi desenvolver uma pipeline completa de análise de dados e machine learning para um conjunto de dados de mais de 5.000 livros. O processo abrange desde a limpeza e exploração inicial dos dados até a implementação de modelos avançados para classificação de gênero, análise de sentimentos e a criação de um sistema de busca semântica.
