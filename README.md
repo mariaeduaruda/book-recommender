@@ -1,8 +1,8 @@
 # Sistema de Recomendação e Busca Semântica de Livros
-## Este projeto demonstra a construção de um sistema de recomendação de livros multifacetado, utilizando técnicas de Processamento de Linguagem Natural (PLN) para analisar, classificar e recomendar livros com base em seu conteúdo e tom emocional. O sistema é capaz de entender consultas em linguagem natural para fornecer sugestões contextualmente relevantes.
+## Este projeto demonstra a construção de um sistema de recomendação de livros diversos, utilizando técnicas de Processamento de Linguagem Natural para analisar, classificar e recomendar livros com base em seu conteúdo e tom emocional. O sistema é capaz de entender consultas em linguagem natural para fornecer sugestões contextualmente relevantes.
 
 # 📜 Descrição do Projeto
-O objetivo deste projeto foi desenvolver uma pipeline completa de análise de dados e machine learning para um conjunto de dados de mais de 5.000 livros. O processo abrange desde a limpeza e exploração inicial dos dados até a implementação de modelos avançados para classificação de gênero, análise de sentimentos e, finalmente, a criação de um motor de busca semântica.
+O objetivo deste projeto foi desenvolver uma pipeline completa de análise de dados e machine learning para um conjunto de dados de mais de 5.000 livros. O processo abrange desde a limpeza e exploração inicial dos dados até a implementação de modelos avançados para classificação de gênero, análise de sentimentos e a criação de um sistema de busca semântica.
 
 A pipeline é dividida nos seguintes notebooks:
 
@@ -17,11 +17,9 @@ vector-search.ipynb: Implementa um sistema de busca vetorial para encontrar livr
 # ✨ Funcionalidades
 Limpeza de Dados: Tratamento de valores ausentes e filtragem de dados para garantir a qualidade do conjunto de dados para análise.
 
-Engenharia de Features: Criação de novas colunas, como idade_do_livro e descricao_faltante, para enriquecer a análise.
-
 Classificação de Gênero: Uso de um modelo de classificação "zero-shot" (facebook/bart-large-mnli) para categorizar livros sem gênero definido, alcançando uma acurácia de 81% em testes.
 
-Análise de Sentimentos: Aplicação de um modelo de emoções (j-hartmann/emotion-english-distilroberta-base) para atribuir pontuações de raiva, alegria, medo, tristeza, etc., a cada livro com base em sua descrição.
+Análise de Sentimentos: Aplicação de um modelo de emoções (j-hartmann/emotion-english-distilroberta-base) para atribuir pontuações com sentimentos de raiva, alegria, medo, tristeza, etc., a cada livro com base em sua descrição.
 
 Busca Semântica Vetorial: Implementação de um sistema de busca usando OpenAI Embeddings e um banco de dados vetorial ChromaDB, permitindo recomendações baseadas no significado de uma consulta em linguagem natural.
 
